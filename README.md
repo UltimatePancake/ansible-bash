@@ -1,1 +1,8 @@
-# ansible-security
+# bash
+
+## Usage
+
+```yaml
+roles:
+  - bash
+```

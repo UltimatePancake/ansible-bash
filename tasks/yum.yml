@@ -1,0 +1,4 @@
+---
+- name: Update bash (vulnerability patches)
+  yum: name=bash state=latest
+  tags: ['security', 'bash']

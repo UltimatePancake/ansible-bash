@@ -1,0 +1,4 @@
+---
+- name: Update bash (vulnerability patches)
+  apt: name=bash state=latest
+  tags: ['security', 'bash']
